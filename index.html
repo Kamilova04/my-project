@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer portfolio</title>
+    <!-- Css links -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/root.css">
+   <!-- Icons cdn -->
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <!-- Header -->
+   <header class="header">
+    <div class="container">
+        <div class="header__nav">
+            <div class="logo">
+                <img src="./img/logo/logo.svg" alt="logo-Kelvin">
+            </div>
+            
+        <!-- Header nav -->
+        <nav  id="nav" class="nav ">
+            <ul class="list">
+                <li  class="items">
+                    <a href="./index.html" id="selected" >Home</a>
+                </li>
+                <li class="items">
+                    <a href="">works</a>
+                </li>
+                <li class="items">
+                    <a href="./services.html">services</a>
+                </li>
+                <li class="items">
+                    <a href="./about.html">about</a>
+                </li>
+                <li class="items">
+                    <a href="./contact.html">contact</a>
+                </li>  
+               
+                <li class="items">
+                    <a href="./snake.html" target="_blank">Let's Play </a>
+                </li>  
+            </ul>
+            
+            <button  id="navBtn" class="nav__button">
+              <img  id="navImage" src="./img/nav/open-icon.svg" alt="open button">
+            </button>
+            
+           
+        </nav>
+        
+       
+        </div>
+       <!-- Header content  -->
+     <div class="header__content" data-aos="fade-left">
+        <div class="text__content">
+            <h1 class="heading"> 
+                Kelvin Kramer <br>   Designer & Developer 
+            </h1>
+            <p>
+                I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.     
+            </p>
+        </div>
+       <div class="img">
+
+        <picture>
+
+            <source media="(max-width:792px)" srcset="./img/header/mobile.png">
+            <img class="header__img" src="./img/header/hero.png" alt="Kelvin Kramer">
+        </picture>
+
+        
+      
+       </div>
+     </div>
+   </header>
+
+<section class="services">
+<div class="container">
+   <div class="cards">
+    <div class="card"  data-aos="fade-right" >
+        <img src="./img/services/01.svg" alt="UI/UX Design">
+        <h1 class="heading__services">
+            UI/UX Design
+        </h1>
+        <p>
+            Our design is translated into comprehensive digital <br> environments built on latest development  <br> standards.  
+        </p>
+    </div>
+
+    <div class="card" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000" >
+        <img src="./img/services/02.svg" alt="UI/UX Design">
+        <h1 class="heading__services">
+            DEVELOPMENT
+        </h1>
+        <p>
+            Our design is translated into comprehensive digital <br> environments built on latest development <br> standards.  
+        </p>
+    </div>
+
+    <div class="card" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom" >
+        <img src="./img/services/03.svg" alt=" software testing">
+        <h1 class="heading__services">
+            software testing
+        </h1>
+        <p>
+            Our design is translated into comprehensive digital <br> environments built on latest development <br> standards.  
+        </p>
+    </div>
+   </div>
+</div>
+</section>
+
+<section class="portfolio">
+    <div class="container">
+        <div class="projects__heading">
+            <h1 class="portfolio__heading">
+                Portfolio
+            </h1>
+        </div>
+        <div class="projects" data-aos="flip-left" >
+           <picture>
+
+            <source media="(max-width:760px) " srcset="./img/portfolio/mobileport1.jpg">
+            <img src="./img/portfolio/port1.jpg" alt="project">
+           </picture>
+            <p>
+                <a href="./work1.html" target="_blank">
+                    Online fashion store - Homepage  
+                </a>
+            </p>
+
+        </div>
+
+        <div class="projects" data-aos="flip-left" >
+          <picture>
+            <source media="(max-width:760px)" srcset="./img/portfolio/mobileport2.jpg">
+            <img src="./img/portfolio/port2.jpg" alt="project">
+          </picture>
+            <p>
+                <a href="./calculator.html" target="_blank">
+                    Reebok Store - Concept
+                </a>
+            </p>
+
+        </div>
+
+        <div class="projects"  data-aos="flip-up" >
+           <picture>
+            <source media="(max-width:760px)" srcset="./img/portfolio/mobileport3.jpg">
+            <img src="./img/portfolio/port3.jpg" alt="project">
+           </picture>
+            <p>
+                <a href="../Freelancer Portfolio/index.html" target="_blank">
+                    Braun Landing Page - Concept
+                </a>
+            </p>
+
+        </div> 
+    </div>
+</section>
+<!-- Footer -->
+<footer class="contacts" data-aos="fade-down"
+data-aos-easing="linear"
+data-aos-duration="1500" >
+    <div class="container">
+        <div class="footer__heading">
+            <h1>
+                Contacts  
+            </h1>
+        </div>
+
+        <div class="contacts__content">
+            <p>
+                Want to know more or just chat? <br>
+                You are welcome!     
+            </p>
+           <button class="footer__btn">
+            <a href="./contact.html">Send message</a>
+           </button>
+           <div class="socials">
+             <a href="http://"> 
+                <img src="./img/socials/Behance.svg" alt="Behance">
+             </a>
+              <a href="http://">
+                <img src="./img/socials/Instargam.svg" alt="Instargam">
+              </a>
+              <a href="http://">
+                <img src="./img/socials/LinkedIn.png" alt="LinkedIn">
+              </a>
+             <a href="http://">
+                <img src="./img/socials/surface1 7.png" alt="surface1">
+             </a>
+           </div>
+           <p class="like__me__on">
+            Like me on <br>
+            LinkedIn, Instagram, Behance, Dribble
+           </p>
+        </div>
+    </div>
+</footer>
+
+<!-- Aos -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Theme -->
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script src="./js/theme.js"></script>
+<!-- Js  -->
+  <script src="./js/main.js"></script>
+ 
+</body>
+</html>

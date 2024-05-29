@@ -1,0 +1,31 @@
+/* SNAKE */
+
+body {
+    text-align: center;
+    background-color: rgb(119, 119, 119);
+}
+.geeks {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(17, 0, 128);
+    font-family: "Gloria Hallelujah", cursive;
+    margin-bottom: 35px;
+}
+
+
+.game-body{
+    margin-top: 150px;
+}
+
+.second-game{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(17, 0, 128);
+    font-family: "Gloria Hallelujah", cursive;
+    text-decoration: none;
+    position: absolute;
+    right: 3rem; 
+    bottom: 2rem;
+}
+
+

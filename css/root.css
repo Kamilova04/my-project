@@ -1,0 +1,60 @@
+ :root{
+  /* Background */
+  --background:#F1F1F1;
+  /* Nav */
+  --menu-text-fonts:17px;
+  --menu-text-fontw:500;
+  --menu-text-lineh:21px;
+  --menu-text-color:#000000;
+  --menu-text-color-selected:#353434;
+  /* Header content */
+  --heading-fonts:44px;
+  --heading-fontw:600;
+  --heading-color:#000000;
+  --heading-lineh:66px;
+    --header-text:16px;
+    --header-text-lineh:28px;
+    --header-text-fontw:400;
+  --header-text-color:#000000;
+
+  /* Services */
+  --services-heading-fonts:25px;
+  --services-heading-fontw:600;
+  --services-heading-lineh:36px;
+  --services-color:#000000;
+  --services-text-fonts:16px;
+  --services-text-fontw:400;
+  --services-text-lineh:2;
+  
+  /* Portfolio */
+  --portfolio-heading-fonts:34px;
+  --portfolio-heading-fontw:600;
+  --portfolio-heading-lineh:51px;
+  --text-align-center:center;
+  --portfolio-link-fonts:18px;
+  --portfolio-link-fontw:400;
+  --text-decor-underline:underline;
+  --portfolio-back:#F1F1F1;
+
+
+  /* Footer */
+  --footer-heading-fonts:34px;
+  --footer-heading-fontw:600;
+  --text-align-center:center;
+  --footer-heading-lineh:51px;
+  --footer-text-fonts:17px;
+  --footer-text-fontw:400;
+  --footer-text-lineh:27px;
+ --footer-socials-color:#b0aeae;
+ --footer-socials-fonts:14px;
+ --footer-socials-lineh:21px;
+
+
+ /* Dark theme */
+/* --background-theme: #0000;
+--header-text-theme:white;
+--selected-text-theme:white; */
+
+ }
+
+
